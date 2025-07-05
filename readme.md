@@ -1,4 +1,6 @@
-# 💼 Sistem Informasi Pengelolaan Data UMKM
+# 💼 SISTEM INFORMASI UMKM MENGGUNAKAN CODEIGNITER
+### (Studi Kasus: Kantor Dinas Perdagangan dan Perindustrian Kabupaten Bandung)
+
 
 Aplikasi web untuk membantu Dinas Perdagangan dan Perindustrian (Disperindag) dalam mengelola dan memantau data UMKM secara efisien, akurat, dan terstruktur. Sistem ini dibangun menggunakan framework **CodeIgniter 4**, serta dilengkapi dengan fitur CRUD, autentikasi, dan pelaporan data.
 
@@ -20,20 +22,22 @@ Berdasarkan latar belakang diatas, peneliti merumuskan maksud dan tujuan sebagai
 | Database Management      | MySQL                      |
 | Web Server               | Apache                     |
 
+
+
 ## 🖥️ Cara Instalasi
 
 ```bash
-# 1. Clone repository ini
+1. Clone repository ini
 git clone https://github.com/sifamaryamrahman/umkm.git
 
-# 2. Masuk ke folder project
+2. Masuk ke folder project
 cd umkm
 
-# 3. Install dependency (jika pakai composer)
+3. Install dependency (jika pakai composer)
 composer install
 
-# 4. Buat database di MySQL
-# lalu sesuaikan koneksi DB di file .env
+4. Buat database di MySQL
+lalu sesuaikan koneksi DB di file .env
 
-# 5. Jalankan server lokal
+5. Jalankan server lokal
 php spark serve
